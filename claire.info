@@ -1,1 +1,4 @@
-\def\letterbody{Foo}
+\def\letterbody{
+  I am writing in support of the promotion of Claire Le~Goues to the position of
+  Associate Professor.
+}
