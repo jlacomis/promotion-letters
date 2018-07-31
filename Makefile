@@ -1,6 +1,6 @@
 LETTERS = bogdan.pdf claire.pdf
 
-%.pdf: %.info
+%.pdf: %.info letter.tex
 	pdflatex -jobname=$* letter.tex
 
 all: $(LETTERS)
