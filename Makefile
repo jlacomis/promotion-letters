@@ -1,4 +1,4 @@
-LETTERS = bogdan.pdf claire.pdf
+LETTERS = bogdan-assoc.pdf claire-assoc.pdf claire-tenure.pdf
 
 %.pdf: %.info letter.tex
 	pdflatex -jobname=$* letter.tex
